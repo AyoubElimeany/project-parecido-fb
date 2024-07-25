@@ -12,7 +12,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: #155a9e;
-    padding: 5px 5%;
+    padding: 20px 5%;
 }
 .logo {
     width: 160px;
@@ -57,4 +57,23 @@ nav {
 }
 .nav-user-icone {
     margin-left: 20px;
+}
+.online {
+    position: relative;
+}
+.online::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: rgb(20, 175, 20);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
 }
