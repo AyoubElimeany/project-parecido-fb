@@ -43,3 +43,15 @@ nav {
     padding: 0 15px;
 
 }
+.nav-user-icone img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
