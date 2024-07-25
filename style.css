@@ -77,3 +77,11 @@ nav {
     justify-content: space-between;
     padding: 13px 5%;
 }
+.left-sadebar {
+    background: rgb(213, 237, 240);
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
