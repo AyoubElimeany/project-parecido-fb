@@ -85,3 +85,11 @@ nav {
     align-self: flex-start;
     height: 100vh;
 }
+.right-sadebar {
+    background: rgb(213, 237, 240);
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    height: 100vh;
+}
