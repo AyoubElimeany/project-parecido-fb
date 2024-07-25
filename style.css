@@ -28,4 +28,18 @@ nav {
 }
 .nav-left ul li img {
     width: 28px;
+    margin: 0 15px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    background: #efefef;
+    width: 350px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
 }
