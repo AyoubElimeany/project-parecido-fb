@@ -80,16 +80,16 @@ nav {
     justify-content: space-between;
     padding: 13px 5%;
 }
-.left-sadebar {
-    background: rgb(213, 237, 240);
+.left-sidebar {
+    background: rgb(199, 233, 236);
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
     height: 100vh;
 }
-.right-sadebar {
-    background: rgb(213, 237, 240);
+.right-sidebar {
+    background: rgb( 199, 233, 236);
     flex-basis: 25%;
     position: sticky;
     top: 70px;
@@ -107,4 +107,8 @@ nav {
     margin-left: 30px;
     color: black;
     width: fit-content;
+}
+.emp-links a img {
+    width: 25px;
+    margin-right: 15px;
 }
