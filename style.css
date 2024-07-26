@@ -280,7 +280,7 @@ nav {
     bottom: 10px;
     width: 100%;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 14px;
 
 }
@@ -373,6 +373,7 @@ nav {
     width: 20px;
     margin-right: 10px;
 }
+
 .posting {
     width: 100%;
     background: white;
@@ -382,8 +383,163 @@ nav {
     color: #424242;
     margin: 20px;
 }
+
 .posting p {
     margin-top: 10px;
     color: black;
     margin-bottom: 10px;
+
+}
+
+.com-shar-like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.com-shar-like .icons div img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.com-shar-like .icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+ /* Media Queries */
+@media (max-width: 1024px) {
+    .left-sidebar,
+    .right-sidebar {
+        width: 20%;
+    }
+
+    .main-content {
+        width: 58%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-left ul {
+        display: none;
+    }
+
+    .nav-left,
+    .nav-right {
+        flex: 1;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .search-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .left-sidebar,
+    .right-sidebar {
+        display: none;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .story {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .story img {
+        width: 20%;
+        border-radius: 50%;
+        top: 5%;
+        left: 5%;
+        border: 2px solid blue;
+    }
+
+    .story p {
+        bottom: 5%;
+        font-size: 12px;
+    }
+
+    .posting {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 600px) {
+    .nav-left ul,
+    .nav-right {
+        display: none;
+    }
+
+    .logo {
+        width: 120px;
+        margin: 0 auto;
+    }
+
+    .search-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .story {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        padding-top: 50%;
+    }
+
+    .story img {
+        width: 60px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .story p {
+        bottom: 10px;
+        font-size: 14px;
+    }
+
+    .posting {
+        margin: 10px 0;
+    }
+}
+
+/* Media Queries for extra small devices */
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .search-box {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .story {
+        padding-top: 60%;
+    }
+
+    .story img {
+        width: 50px;
+    }
+
+    .story p {
+        font-size: 12px;
+    }
+
+    .posting {
+        padding: 10px;
+    }
 }
