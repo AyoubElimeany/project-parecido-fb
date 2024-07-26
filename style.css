@@ -317,6 +317,8 @@ nav {
     border-radius: 6px;
     padding: 20px;
     color: #626262;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .user-profile {
@@ -370,4 +372,18 @@ nav {
 .add-post-links a img {
     width: 20px;
     margin-right: 10px;
+}
+.posting {
+    width: 100%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px;
+    color: #424242;
+    margin: 20px;
+}
+.posting p {
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 10px;
 }
